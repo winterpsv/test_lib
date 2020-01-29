@@ -1,0 +1,23 @@
+{
+    "name": "winterpsv/test_lib",
+    "description": "Home work 2, create test lib",
+    "type": "lib",
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "php": "^7.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Pedchenko",
+            "email": "winterpsv@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "winter\\": "winter"
+        }
+    }
+}
