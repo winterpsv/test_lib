@@ -1,0 +1,11 @@
+<?php
+
+declare(strict_types=1);
+
+use winter\Calc as Calc;
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+$square = new Calc();
+$square->counts('Rectangle', 3, 8);
+$square->getResult();
