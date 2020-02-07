@@ -5,9 +5,6 @@
     "require": {
         "php": "^7.4"
     },
-    "require-dev": {
-        "php": "^7.4"
-    },
     "license": "MIT",
     "authors": [
         {
@@ -17,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "winter\\": "winter"
+            "winterpsv\\winter\\": "winter/"
         }
     }
 }
