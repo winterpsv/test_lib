@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace winter;
+namespace winterpsv\winter;
 
-use winter\Square;
+use winterpsv\winter\Square;
 
 /**
  * Class SquareCalc

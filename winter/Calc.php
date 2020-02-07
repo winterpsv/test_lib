@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace winter;
+namespace winterpsv\winter;
 
-use winter\RectangleCalc;
-use winter\SquareCalc;
-use winter\CircleCalc;
+use winterpsv\winter\RectangleCalc;
+use winterpsv\winter\SquareCalc;
+use winterpsv\winter\CircleCalc;
 
 /**
  * Class Calc
