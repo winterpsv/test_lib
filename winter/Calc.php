@@ -11,22 +11,41 @@ use winterpsv\winter\CircleCalc;
 /**
  * Class Calc
  * Очищаем/принимаем данные, вычисляем и выводим
+ *
+ * @author Sergey Pedchenko <winterpsv@gmail.com>
+ *
+ * @license https://opensource.org/licenses/MIT The MIT License
+ *
  * @package winter
+ *
+ * @version 1.0.2
  */
 class Calc
 {
+    /**
+     * @var object|null
+     */
     private ?object $sq;
 
+    /**
+     * Calc constructor.
+     */
     public function __construct()
     {
         $this->resetResult();
     }
 
+    /**
+     * Reset result
+     */
     public function resetResult(): void
     {
         $this->sq = null;
     }
 
+    /**
+     * View result
+     */
     public function getResult(): void
     {
         try {
@@ -38,6 +57,11 @@ class Calc
         $this->resetResult();
     }
 
+    /**
+     * @param string|null $type
+     * @param float|null $x
+     * @param float|null $y
+     */
     public function counts(?string $type, ?float $x, ?float $y): void
     {
         switch ($type) {
