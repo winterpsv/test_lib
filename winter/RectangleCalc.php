@@ -9,10 +9,19 @@ use winterpsv\winter\Square;
 /**
  * Class RectangleCalc
  * Реализован интерфейс для вычисления площади прямоугольника
+ *
+ * @author Sergey Pedchenko <winterpsv@gmail.com>
+ *
+ * @license https://opensource.org/licenses/MIT The MIT License
+ *
  * @package winter
+ *
+ * @version 1.0.2
  */
 class RectangleCalc implements Square
 {
+    /** @var float $x */
+    /** @var float $y */
     private float $x, $y;
 
     /**
